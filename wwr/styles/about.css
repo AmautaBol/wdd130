@@ -1,10 +1,10 @@
 /* Root Variables */
 :root {
-  --background-color: #FEFEFE; 
-  --primary-color: #88B75B;    
-  --secondary-color: #F4BB14;  
-  --accent-color: #174488;     
-  --text-color: #333333;      
+  --background-color: #FEFEFE;
+  --primary-color: #88B75B;
+  --secondary-color: #F4BB14;
+  --accent-color: #174488;
+  --text-color: #333333;
   --heading-font: 'Lato', sans-serif;
   --body-font: 'Roboto', sans-serif;
 }
@@ -36,7 +36,7 @@ header img {
 }
 
 nav {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 nav a {
@@ -53,7 +53,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  position: relative; 
+  position: relative;
   text-align: center;
   color: var(--background-color);
 }
@@ -77,63 +77,53 @@ nav a:hover {
   border-radius: 5px;
 }
 
-/* Article Section */
-article {
-  float: left; 
-  width: fit-content; 
-  height: fit-content; 
-  padding: 20px;
-  background-color: var(--secondary-color);
-  color: var(--background-color);
-  position: relative;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-article img {
-  float: left;
-  margin-right: 15px;
-  border: 2px solid var(--accent-color);
-}
-
-article p {
-  text-align: justify;
-}
-
-/* History Section */
-section {
-  clear: both;
+/* Main Sections */
+main section {
   margin: 20px auto;
-  padding: 10px;
+  padding: 15px;
+  max-width: 80%;
+  background-color: var(--background-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-section h2 {
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 20px gray;
+  position:static;
+}
+.map {
+  width: 100%; 
+  height: auto; 
+}
+main section h2 {
   font-family: var(--heading-font);
   font-weight: 700;
   text-align: center;
   color: var(--accent-color);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-section p {
+main section p {
   text-align: justify;
-  margin: 0 auto;
-  max-width: 80%;
+  margin: 10px 0;
 }
 
-/* Adventure Images Section */
-section img {
-  float: left;
-  width: calc(33.33% - 10px);
-  margin: 5px;
-  border: 2px solid var(--primary-color);
-  border-radius: 5px;
+/* Trip Summary Section */
+main section#trip-summary ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
-section p {
-  text-align: justify;
-  margin: 0 auto;
-  max-width: 80%;
+
+main section#trip-summary ul li {
+  margin: 5px 0;
+  font-weight: 500;
+  color: var(--text-color);
 }
+
 /* Footer */
 footer {
   background-color: var(--accent-color);
@@ -151,7 +141,7 @@ footer p {
 
 footer nav.sociallinks img {
   width: 40px;
-  margin: 0 30px;
+  margin: 0 10px;
 }
 
 footer nav.sociallinks a:hover {
