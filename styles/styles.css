@@ -41,7 +41,7 @@ aside img	{
 main img{
 	width: 150px;
 	height: auto;
-	box-shadow: #000;
+	box-shadow: 5px 5px 10px #000
 }
 p {
 	padding: 0;
