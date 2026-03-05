@@ -1,0 +1,12 @@
+:root {
+	--primary-color: #005a05;
+	--secondary-color:#f4a261;
+	--accent1-color: #264653;
+	--accent2-color: #e9c46a;
+	--heading-font: "Roboto" serif;
+	--body-font: "Lato", sans-serif;
+}
+header {
+	background-color: var(--primary -color);
+	color: var(--accent2-color);
+}
