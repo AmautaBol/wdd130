@@ -45,7 +45,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;                   
+    color: white;               
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
@@ -55,7 +55,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: var(--accent2-color);
     border-radius: 4px;
-    color: #333;                   
+    color: #333;
 }
 
 .hero {
@@ -84,18 +84,18 @@ nav ul li a:hover {
     z-index: 2;
 }
 
+
 .hero article {
     position: absolute;
     bottom: 40px;
     left: 20px;
     right: 20px;
-    background-color: rgba(8, 131, 149, 0.95); 
+    background-color: #06626e;     
     color: white;
     padding: 1.5rem;
     border-radius: 8px;
     z-index: 2;
 }
-
 
 .hero article img {
     float: right;
@@ -130,7 +130,7 @@ section p {
 }
 
 footer {
-    background-color: #0a4d68;      
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 1.5rem;
