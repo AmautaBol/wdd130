@@ -13,7 +13,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: var(--body-font);
     color: #333;
@@ -34,7 +33,6 @@ header img {
     max-width: 150px;
     height: auto;
 }
-
 
 nav ul {
     list-style: none;
@@ -58,7 +56,6 @@ nav ul li a:hover {
     border-radius: 4px;
     color: #333;
 }
-
 
 .hero {
     position: relative;
@@ -91,7 +88,7 @@ nav ul li a:hover {
     bottom: 40px;
     left: 20px;
     right: 20px;
-    background-color: rgba(8, 131, 149, 0.9);
+    background-color: var(--secondary-color);  
     color: white;
     padding: 1.5rem;
     border-radius: 8px;
@@ -110,7 +107,6 @@ nav ul li a:hover {
 .hero article p {
     text-align: justify;
 }
-
 
 section {
     margin: 2rem auto;
@@ -131,9 +127,8 @@ section p {
     text-align: justify;
 }
 
-
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);  
     color: white;
     text-align: center;
     padding: 1.5rem;
@@ -143,7 +138,6 @@ footer {
 footer p {
     margin-bottom: 1rem;
 }
-
 
 .socialmedia {
     display: flex;
