@@ -1,0 +1,233 @@
+:root {
+    --primary-color: #0a4d68;
+    --secondary-color: #088395;
+    --accent1-color: #05bfdb;
+    --accent2-color: #f2c94c;
+    --heading-font: "Roboto", serif;
+    --body-font: "Lato", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 3px solid var(--primary-color);
+    flex-wrap: wrap;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: var(--accent2-color);
+    border-radius: 4px;
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(10, 77, 104, 0.85);
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: var(--heading-font);
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(8, 131, 149, 0.9);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    z-index: 2;
+    backdrop-filter: blur(3px);
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    border: 2px solid var(--accent2-color);
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    border-bottom: 3px solid var(--accent2-color);
+    display: inline-block;
+    width: auto;
+    padding-bottom: 0.5rem;
+}
+
+section p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.adventures-section {
+    background-color: #f4f4f4;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.adventures-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--accent2-color);
+    display: inline-block;
+    width: auto;
+    padding-bottom: 0.5rem;
+}
+
+.adventures-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.adventures-grid figure {
+    flex: 1;
+    min-width: 180px;
+    margin: 0;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.adventures-grid figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.adventures-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.adventures-grid figcaption {
+    margin-top: 12px;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+footer {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 1rem;
+}
+
+.socialmedia a img {
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.socialmedia a img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
