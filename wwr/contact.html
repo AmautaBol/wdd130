@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting | Adventure Co.</title>
+    <meta name="description" content="Contact Adventure Co. for rafting inquiries, reservations, or website suggestions. Find our address, phone, and email here.">
+    <meta name="author" content="Giancarlo Teran Olguin">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr.avif" alt="Company's logo" width="200">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <div class="contact-container">
+            <section class="company-info">
+                <h2>White Water Rafting Company</h2>
+                <address>
+                    106 Yaminawa ST<br>
+                   Cochabamba, Bolivia<br>
+                    <a href="tel:+19999999999">+1 999 999 9999</a><br>
+                    <a href="mailto:vive@whitewater.com">vive@whitewater.com</a>
+                </address>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d86.86422254843637!2d-66.18625786415011!3d-17.37220535466068!2m3!1f0!2f3.9432640170908395!3f0!3m2!1i1024!2i768!4f55.53257484962948!5e1!3m2!1ses!2sbo!4v1791501363551!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </section>
+            <section class="contact-form-section">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                    </div>
+                    <fieldset class="form-group">
+                        <legend>Message Purpose:</legend>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-general" name="purpose" value="general-inquiry" checked>
+                            <label for="purpose-general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation-question">
+                            <label for="purpose-reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-website" name="purpose" value="website-suggestion">
+                            <label for="purpose-website">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Type here" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter" checked>
+                        <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="employees-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees-grid">
+                <figure>
+                    <img src="images/developer.webp" alt="Web developer">
+                    <figcaption>Web Developer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/designer.webp" alt="Designer 1">
+                    <figcaption>Designer 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/designer-2.webp" alt="Designer 2">
+                    <figcaption>Designer 2</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 💦 Giancarlo Teran Olguin 💦 Cochabamba, Bolivia</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook_icon.avif" alt="facebook Icon" width="100" height="100">
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <img src="images/linkedin_.avif" alt="LinkedIn Icon" width="100" height="100">
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram_icon.avif" alt="Instagram Icon" width="100" height="100">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
